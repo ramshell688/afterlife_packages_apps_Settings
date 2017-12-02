@@ -421,6 +421,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-            Settings.AftelabSettingsActivity.class.getName(),
+            Settings.AfterlabSettingsActivity.class.getName(),
     };
 }
