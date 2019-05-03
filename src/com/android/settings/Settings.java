@@ -449,6 +449,10 @@ public class Settings extends SettingsActivity {
      */
     public static class OneHandedSettingsActivity extends SettingsActivity { /* empty */ }
 
-    // Customizer Additions.
+    // AfterLabs Additions.
     public static class AfterlabSettingsActivity extends SettingsActivity {}
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }

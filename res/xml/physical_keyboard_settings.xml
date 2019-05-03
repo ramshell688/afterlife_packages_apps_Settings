@@ -45,7 +45,7 @@
             settings:requiresAction="org.lineageos.settings.device.ADVANCED_KEYBOARD_SETTINGS">
             <intent
                 android:action="org.lineageos.settings.device.ADVANCED_KEYBOARD_SETTINGS" />
-        </com.droidx.support.preferences.RemotePreference>
+        </com.afterlife.support.preference.RemotePreference>
 
     </PreferenceCategory>
 
