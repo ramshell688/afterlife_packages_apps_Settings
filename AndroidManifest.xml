@@ -4571,35 +4571,13 @@
             </intent-filter>
         </activity>
 
-<<<<<<< HEAD
-=======
-        <activity android:name=".backup.transport.TransportActivity"
-                  android:label="@string/backup_transport_title"
-                  android:icon="@drawable/ic_settings_backup"
-                  android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:scheme="settings"
-                      android:host="com.android.settings.backup.transport" />
-            </intent-filter>
-        </activity>
-
-        <!-- LineVall -->
-        <activity
-            android:name=".Settings$LineVallSettings"
-            android:label="@string/linevall_settings_title"
-            android:parentActivityName="com.android.settings"
-            android:icon="@drawable/ic_homepage_linevall"
+        <!-- Bluetooth Timeout -->
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
             android:exported="true">
-            <intent-filter android:priority="69">
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="com.android.settings.SHORTCUT" />
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.TIMEOUT" />
             </intent-filter>
-            <meta-data
-                android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.linevall.unsa.LineVallSettings" />
-        </activity>
+        </receiver>
 
         <!-- Face unlock -->
 	    <activity
@@ -4613,7 +4591,6 @@
             </intent-filter>
         </activity>
 
->>>>>>> b8cfdf8637 (Initial import of Face Unlock for T)
         <!-- This is the longest AndroidManifest.xml ever. -->
         
         <!-- AfterLab additions -->
