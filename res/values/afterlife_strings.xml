@@ -66,4 +66,8 @@
 
     <!-- Used in the Wi-Fi settings screen to control turning on/off Wi-Fi entirely [CHAR LIMIT=30]-->
     <string name="android_beam_primary_switch_title">Use Android Beam</string>
+
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Immersive Navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
 </resources>
