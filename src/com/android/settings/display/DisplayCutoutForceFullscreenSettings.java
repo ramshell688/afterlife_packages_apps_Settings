@@ -49,7 +49,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.android.internal.util.droidx.cutout.CutoutFullscreenController;
+import com.android.internal.util.afterlife.cutout.CutoutFullscreenController;
 
 public class DisplayCutoutForceFullscreenSettings extends SettingsPreferenceFragment
         implements ApplicationsState.Callbacks {
