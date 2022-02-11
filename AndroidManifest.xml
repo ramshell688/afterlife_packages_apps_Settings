@@ -125,6 +125,10 @@
     <!-- LiveDisplay -->
     <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
 
+    <!-- Face Unlock -->
+    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
+    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4567,6 +4571,49 @@
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
+=======
+        <activity android:name=".backup.transport.TransportActivity"
+                  android:label="@string/backup_transport_title"
+                  android:icon="@drawable/ic_settings_backup"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="settings"
+                      android:host="com.android.settings.backup.transport" />
+            </intent-filter>
+        </activity>
+
+        <!-- LineVall -->
+        <activity
+            android:name=".Settings$LineVallSettings"
+            android:label="@string/linevall_settings_title"
+            android:parentActivityName="com.android.settings"
+            android:icon="@drawable/ic_homepage_linevall"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.linevall.unsa.LineVallSettings" />
+        </activity>
+
+        <!-- Face unlock -->
+	    <activity
+            android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
+            android:permission="com.android.settings.FACE_UNLOCK"
+            android:theme="@style/Transparent"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+>>>>>>> b8cfdf8637 (Initial import of Face Unlock for T)
         <!-- This is the longest AndroidManifest.xml ever. -->
         
         <!-- AfterLab additions -->
