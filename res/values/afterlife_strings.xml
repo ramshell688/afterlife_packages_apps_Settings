@@ -356,4 +356,8 @@
     <string name="notification_battery_charge_level_seek_bar">Battery level</string>
     <string name="notification_battery_charge_level_ringtone">Ringtone</string>
     <string name="notification_battery_charge_level_silent">Silent</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
 </resources>
