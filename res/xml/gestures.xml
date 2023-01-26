@@ -111,16 +111,16 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
-    <com.afterlife.support.preference.RemotePreference
-            android:key="touchscreen_gesture_settings"
-            android:title="@string/touchscreen_gesture_settings_title"
-            android:summary="@string/touchscreen_gesture_settings_summary"
-            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+    <Preference
+        android:key="touchscreen_gesture_settings"
+        android:persistent="false"
+        android:title="@string/touchscreen_gesture_settings_title"
+        android:summary="@string/touchscreen_gesture_settings_summary">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
-    </com.afterlife.support.preference.RemotePreference>
+    </Preference>
 
     <com.afterlife.support.preference.RemotePreference
             android:key="device_touchscreen_gesture_settings"
