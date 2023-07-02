@@ -63,5 +63,6 @@
     <string name="laboratory_parallel_space_title">Parallel space</string>
     <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
 
-
+    <!-- Used in the Wi-Fi settings screen to control turning on/off Wi-Fi entirely [CHAR LIMIT=30]-->
+    <string name="android_beam_primary_switch_title">Use Android Beam</string>
 </resources>
