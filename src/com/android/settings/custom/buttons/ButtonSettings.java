@@ -453,7 +453,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CUSTOMIZE;
+        return MetricsEvent.AFTERLIFE;
     }
 
     @Override
