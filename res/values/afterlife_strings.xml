@@ -233,4 +233,11 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
+
+    <string name="summary_account">Saved passwords, auto fill, sinced accounts</string>
+    <string name="summary_conect">Sim status, data saver, DNS, and VPN</string>
+    <string name="summary_hspt">Share internet to other device</string>
+    <string name="title_hspt">Portable hotspot</string>
+    <string name="title_conectivity">Connectivity</string>
+
 </resources>
