@@ -273,4 +273,8 @@
     <string name="app_lock_timeout_5min">5 minutes</string>
     <string name="app_lock_timeout_10min">10 minutes</string>
     <string name="app_lock_timeout_30min">30 minutes</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
