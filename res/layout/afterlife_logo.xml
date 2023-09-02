@@ -14,20 +14,22 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="?android:attr/colorPrimary"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:gravity="center"
-    android:orientation="horizontal"
-    android:selectable="false">
-
-        <ImageView
-            android:adjustViewBounds="true"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:scaleType="centerInside"
-            android:layout_marginHorizontal="6dp"
-            android:src="@drawable/ic_afterlife_logo"/>
+<LinearLayout 
+     android:gravity="center" 
+     android:orientation="horizontal" 
+     android:background="?android:colorPrimary" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:selectable="false"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <ImageView 
+          android:layout_width="fill_parent" 
+          android:layout_height="150.0dip" 
+          android:tint="?android:colorAccent" 
+          android:src="@drawable/ic_afterlife_logo" 
+          android:scaleType="centerInside" 
+          android:adjustViewBounds="true" 
+          android:layout_marginHorizontal="16.0dip" />
 
 </LinearLayout>
