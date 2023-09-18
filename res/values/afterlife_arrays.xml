@@ -85,6 +85,7 @@
         <item>300000</item>
         <item>600000</item>
         <item>1800000</item>
+    </string-array>
 
     <!-- Hotspot -->
     <string-array name="wifi_tether_auto_turn_off_entries">
