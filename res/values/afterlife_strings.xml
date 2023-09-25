@@ -25,6 +25,10 @@
 
     <!-- AfterLife Maintainer -->
     <string name="afterlife_maintainer">Device Maintainer</string>
+    <string name="maintainer_git_username">null</string>
+    <string name="maintainer_tele_username">null</string>
+    <string name="maintainer_ig_username">null</string>
+    <string name="maintainer_fb_username">null</string>
      
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
