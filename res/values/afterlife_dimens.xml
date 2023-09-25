@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- card radius -->
+    <dimen name="al_card_radius_big">20dp</dimen>
+    <dimen name="al_card_radius">0dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@android:color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/bg_card" />
+            <corners android:topLeftRadius="@dimen/al_card_radius_big" android:topRightRadius="@dimen/al_card_radius_big" android:bottomLeftRadius="@dimen/al_card_radius_big" android:bottomRightRadius="@dimen/al_card_radius_big" />
+        </shape>
+    </item>
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_card" />
+            <corners android:topLeftRadius="@dimen/al_card_radius_big" android:topRightRadius="@dimen/al_card_radius_big" android:bottomLeftRadius="@dimen/al_card_radius_big" android:bottomRightRadius="@dimen/al_card_radius_big" />
+        </shape>
+    </item>
+</ripple>
