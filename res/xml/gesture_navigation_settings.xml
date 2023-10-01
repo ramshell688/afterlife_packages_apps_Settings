@@ -19,6 +19,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="gesture_navigation_settings_page"
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
@@ -56,6 +57,36 @@
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Custom gesture handle">
+    <com.afterlife.support.preference.SystemSettingSwitchPreference
+        android:title="Custom pill handle"
+        android:key="declan_gesture_navbar_switch"
+        android:summary="Customize gesture navigation handle"
+        android:defaultValue="false" />
+    <com.afterlife.support.preference.SystemSettingSeekBarPreference
+        android:max="200"
+        android:title="Pill length"
+        android:key="declan_gesture_navbar_lenght"
+        android:dependency="declan_gesture_navbar_switch"
+        android:defaultValue="72"
+        app:min="0" />
+    <com.afterlife.support.preference.SystemSettingSeekBarPreference
+        android:max="30"
+        android:title="Pill radius"
+        android:key="declan_gesture_navbar_radius"
+        android:dependency="declan_gesture_navbar_switch"
+        android:defaultValue="1"
+        app:min="0" />
+    <com.afterlife.support.preference.SystemSettingSeekBarPreference
+        android:max="30"
+        android:title="Pill bottom"
+        android:key="declan_gesture_navbar_bottom"
+        android:dependency="declan_gesture_navbar_switch"
+        android:defaultValue="6"
+        app:min="0" />
+</PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
