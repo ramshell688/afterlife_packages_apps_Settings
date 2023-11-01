@@ -66,6 +66,11 @@ public class AppLocalePickerActivity extends SettingsBaseActivity
             finish();
             return;
         }
+        if (!canDisplayLocaleUi() || mContextAsUser.getUserId() != UserHandle.myUserId()) {
+            Log.w(TAG, "Not allow to display Locale Settings UI.");
+            finish();
+            return;
+        }
 
         setTitle(R.string.app_locale_picker_title);
         getActionBar().setDisplayHomeAsUpEnabled(true);
