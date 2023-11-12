@@ -4622,7 +4622,7 @@
         <!-- This is the longest AndroidManifest.xml ever. -->
         
         <!-- AfterLab additions -->
-        <activity android:name=".Settings$AfterlifeAfterlabSettingsActivity"
+        <activity android:name=".Settings$AfterlabSettingsActivity"
                   android:label="@string/customize_dashboard_title"
                   android:icon="@drawable/ic_homepage_afterlab"
                   android:exported="true"
