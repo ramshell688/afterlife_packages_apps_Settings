@@ -57,10 +57,9 @@
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/module_version"
         android:key="module_version"
-        android:summary="@string/summary_placeholder"
+        android:summary="13"
         app:cardRight="true"
         app:cardType="middle"
-        app:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"
         app:enableCopying="true"
         app:showDividerBottom="true"
         app:showDividerRight="false"/>
