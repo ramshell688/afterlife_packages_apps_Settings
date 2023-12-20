@@ -46,7 +46,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.custom.buttons.preference.*;
 import com.android.settings.custom.buttons.ButtonSettingsUtils;
 
-import com.android.internal.custom.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
 import com.android.internal.util.custom.NavbarUtils;
 
 import java.util.List;
