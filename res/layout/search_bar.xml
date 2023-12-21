@@ -1,51 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2018 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/search_bar_margin">
-
+    android:layout_marginHorizontal="25dp"
+    android:layout_marginVertical="@dimen/search_bar_margin">
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/search_bar"
-        style="@style/SearchBarStyle"
+        android:id="@id/search_bar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_weight="1.0"
+        style="@style/SearchBarStyle">
         <Toolbar
-            android:id="@+id/search_action_bar"
+            android:id="@id/search_action_bar"
+            android:background="@drawable/search_bar_selected_background"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/search_bar_height"
+            android:layout_height="45dp"
             android:paddingStart="@dimen/search_bar_padding_start"
             android:paddingEnd="@dimen/search_bar_padding_end"
-            android:background="@drawable/search_bar_selected_background"
-            android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
-            android:navigationIcon="@drawable/ic_homepage_search">
+            android:navigationIcon="@drawable/ic_homepage_search"
+            android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset">
             <TextView
-                android:id="@+id/search_action_bar_title"
-                style="@style/TextAppearance.SearchBar"
+                android:textSize="14sp"
+                android:layout_gravity="start"
+                android:id="@id/search_action_bar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Search..."
                 android:paddingStart="@dimen/search_bar_title_padding_start"
-                android:layout_gravity="start"
-                android:text="@string/search_menu"/>
+                style="@style/TextAppearance.SearchBar" />
         </Toolbar>
     </com.google.android.material.card.MaterialCardView>
-
 </LinearLayout>
-
