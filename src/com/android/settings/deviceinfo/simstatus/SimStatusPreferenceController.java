@@ -88,6 +88,7 @@ public class SimStatusPreferenceController extends
             multiSimPreference.setOrder(simStatusOrder + simSlotNumber);
             multiSimPreference.setKey(KEY_SIM_STATUS + simSlotNumber);
             category.addPreference(multiSimPreference);
+            multiSimPreference.setLayoutResource(R.layout.about_card_preference_middle);
             mPreferenceList.add(multiSimPreference);
         }
     }

@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<PreferenceScreen
-    android:title=" "
-    app:keywords="@string/keywords_android_version"
+<PreferenceScreen 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title=" "
+    app:keywords="@string/keywords_android_version">
     <com.android.settingslib.widget.LayoutPreference
         android:clickable="true"
         android:layout="@layout/afterlife_logo"
         android:key="afterlife_logo"
-        app:controller="com.android.settings.deviceinfo.firmwareversion.afterlifeLogoController"/>
-        
-    <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/afterlife_maintainer"
-        android:title="@string/afterlife_maintainer"
-        android:key="afterlife_maintainer"
-        android:summary="@string/summary_placeholder"
-        app:controller="com.android.settings.deviceinfo.firmwareversion.afterlifeMaintainerController"
-        app:enableCopying="true"/>
-        
+        app:controller="com.android.settings.deviceinfo.firmwareversion.afterlifeLogoController" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/firmware_version"
         android:key="os_firmware_version"
@@ -30,8 +19,7 @@
         app:enableCopying="true"
         app:searchable="false"
         app:showDividerBottom="true"
-        app:showDividerRight="true"/>
-        
+        app:showDividerRight="true" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/afterlife_version"
         android:key="afx_version"
@@ -42,8 +30,7 @@
         app:enableCopying="true"
         app:searchable="false"
         app:showDividerBottom="true"
-        app:showDividerRight="false"/>
-        
+        app:showDividerRight="false" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/security_patch"
         android:key="security_key"
@@ -52,8 +39,7 @@
         app:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"
         app:enableCopying="true"
         app:showDividerBottom="true"
-        app:showDividerRight="true"/>
-        
+        app:showDividerRight="true" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/module_version"
         android:key="module_version"
@@ -62,8 +48,7 @@
         app:cardType="middle"
         app:enableCopying="true"
         app:showDividerBottom="true"
-        app:showDividerRight="false"/>
-        
+        app:showDividerRight="false" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/kernel_version"
         android:key="kernel_version"
@@ -73,8 +58,7 @@
         app:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"
         app:enableCopying="true"
         app:showDividerBottom="true"
-        app:showDividerRight="true"/>
-        
+        app:showDividerRight="true" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/build_number"
         android:selectable="false"
@@ -85,8 +69,7 @@
         app:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"
         app:enableCopying="true"
         app:showDividerBottom="true"
-        app:showDividerRight="false"/>
-        
+        app:showDividerRight="false" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/baseband_version"
         android:selectable="false"
@@ -98,8 +81,7 @@
         app:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"
         app:enableCopying="true"
         app:showDividerBottom="false"
-        app:showDividerRight="true"/>
-        
+        app:showDividerRight="true" />
     <declan.prjct.settings.aboutphone.AfterlifePreference
         android:title="@string/selinux_status"
         android:key="selinux_status"
@@ -110,6 +92,5 @@
         app:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"
         app:enableCopying="false"
         app:showDividerBottom="false"
-        app:showDividerRight="false"/>
-        
+        app:showDividerRight="false" />
 </PreferenceScreen>
