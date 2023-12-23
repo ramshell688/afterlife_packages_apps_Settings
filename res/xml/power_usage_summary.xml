@@ -71,6 +71,14 @@
         android:title="@string/notification_battery_charge_level_title"
         android:summary="@string/notification_battery_charge_level_summary" />
 
+    <!-- Charging control -->
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.health.ChargingControlSettings"
+        settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
