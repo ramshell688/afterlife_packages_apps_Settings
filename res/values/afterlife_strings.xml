@@ -442,4 +442,10 @@
     <string name="charging_control_target_time_title">Target time to full charge</string>
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
+
+    <!-- restart settings dialog -->
+    <string name="restart_settings_message">For all changes to take effect, a Settings restart is required. Restart Settings now?</string>
+    <string name="restart_settings_title">Settings restart required</string>
+	<string name="restart_systemui_message">For all changes to take effect, a SystemUi restart is required. Restart SystemUi now?</string>
+    <string name="restart_systemui_title">SystemUi restart required</string>
 </resources>
