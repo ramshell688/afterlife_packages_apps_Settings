@@ -97,118 +97,118 @@
                             </LinearLayout>
                         </FrameLayout>
                         <TextView
-                            android:textColor="?android:colorAccent"
+                            android:textColor="?android:attr/colorAccent"
                             android:layout_gravity="start"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="10.0dip"
+                            android:layout_marginBottom="10dp"
                             android:text="Contact me on"
-                            style="@style/PreferenceSummaryTextStyle"/>
+                            style="@style/PreferenceSummaryTextStyle" />
                         <LinearLayout
                             android:orientation="horizontal"
-                            android:layout_width="fill_parent"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content">
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:id="@+id/github"
                                 android:background="@drawable/al_bg_single"
-                                android:padding="10.0dip"
-                                android:layout_width="fill_parent"
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1.0"
-                                android:layout_marginEnd="5.0dip"
+                                android:layout_marginEnd="5dp"
                                 android:backgroundTint="@color/color_bg">
                                 <ImageView
                                     android:layout_gravity="center"
-                                    android:layout_width="24.0dip"
-                                    android:layout_height="24.0dip"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
                                     android:src="@drawable/github"
-                                    android:tint="?android:colorAccent"/>
+                                    android:tint="?android:attr/colorAccent" />
                                 <TextView
-                                    android:textAppearance="?android:textAppearanceListItemSmall"
-                                    android:textSize="12.0dip"
-                                    android:textColor="?android:textColorPrimary"
+                                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                                    android:textSize="8sp"
+                                    android:textColor="?android:attr/textColorPrimary"
                                     android:layout_gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Github"/>
+                                    android:text="Github" />
                             </LinearLayout>
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:id="@+id/telegram"
                                 android:background="@drawable/al_bg_single"
-                                android:padding="10.0dip"
-                                android:layout_width="fill_parent"
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1.0"
-                                android:layout_marginStart="5.0dip"
-                                android:layout_marginEnd="5.0dip"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
                                 android:backgroundTint="@color/color_bg">
                                 <ImageView
                                     android:layout_gravity="center"
-                                    android:layout_width="24.0dip"
-                                    android:layout_height="24.0dip"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
                                     android:src="@drawable/telegram"
-                                    android:tint="?android:colorAccent"/>
+                                    android:tint="?android:attr/colorAccent" />
                                 <TextView
-                                    android:textAppearance="?android:textAppearanceListItemSmall"
-                                    android:textSize="12.0dip"
-                                    android:textColor="?android:textColorPrimary"
+                                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                                    android:textSize="8sp"
+                                    android:textColor="?android:attr/textColorPrimary"
                                     android:layout_gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Telegram"/>
+                                    android:text="Telegram" />
                             </LinearLayout>
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:id="@+id/facebook"
                                 android:background="@drawable/al_bg_single"
-                                android:padding="10.0dip"
-                                android:layout_width="fill_parent"
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1.0"
-                                android:layout_marginStart="5.0dip"
-                                android:layout_marginEnd="5.0dip"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
                                 android:backgroundTint="@color/color_bg">
                                 <ImageView
                                     android:layout_gravity="center"
-                                    android:layout_width="24.0dip"
-                                    android:layout_height="24.0dip"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
                                     android:src="@drawable/facebook"
-                                    android:tint="?android:colorAccent"/>
+                                    android:tint="?android:attr/colorAccent" />
                                 <TextView
-                                    android:textAppearance="?android:textAppearanceListItemSmall"
-                                    android:textSize="12.0dip"
-                                    android:textColor="?android:textColorPrimary"
+                                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                                    android:textSize="8sp"
+                                    android:textColor="?android:attr/textColorPrimary"
                                     android:layout_gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Facebook"/>
+                                    android:text="Facebook" />
                             </LinearLayout>
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:id="@+id/instagram"
                                 android:background="@drawable/al_bg_single"
-                                android:padding="10.0dip"
-                                android:layout_width="fill_parent"
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1.0"
-                                android:layout_marginStart="5.0dip"
+                                android:layout_marginStart="5dp"
                                 android:backgroundTint="@color/color_bg">
                                 <ImageView
                                     android:layout_gravity="center"
-                                    android:layout_width="24.0dip"
-                                    android:layout_height="24.0dip"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
                                     android:src="@drawable/instagram"
-                                    android:tint="?android:colorAccent"/>
+                                    android:tint="?android:attr/colorAccent" />
                                 <TextView
-                                    android:textAppearance="?android:textAppearanceListItemSmall"
-                                    android:textSize="12.0dip"
-                                    android:textColor="?android:textColorPrimary"
+                                    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                                    android:textSize="8sp"
+                                    android:textColor="?android:attr/textColorPrimary"
                                     android:layout_gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Instagram"/>
+                                    android:text="Instagram" />
                             </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
