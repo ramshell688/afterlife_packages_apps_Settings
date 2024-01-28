@@ -18,14 +18,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="storage_dashboard_fragment"
-    android:title=" "
+    android:title="@string/storage_settings"
     settings:keywords="@string/keywords_storage">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_storage_header"
-        android:order="-999" />
 
     <com.android.settingslib.widget.SettingsSpinnerPreference
         android:key="storage_spinner"

@@ -19,14 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="security_dashboard_page"
-    android:title=" ">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_security_header"
-        android:clickable="false"
-        android:order="-999" />
+    android:title="@string/security_settings_title">
 
     <!-- security_settings_status.xml -->
     <PreferenceCategory

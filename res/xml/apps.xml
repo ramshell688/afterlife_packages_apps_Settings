@@ -19,14 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="apps_screen"
-    android:title=" ">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_app_header"
-        android:clickable="false"
-        android:order="-999" />
+    android:title="@string/apps_dashboard_title">
 
     <Preference
         android:key="all_app_infos"

@@ -19,15 +19,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="privacy_dashboard_page"
-    android:title=" ">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_privacy_header"
-        android:clickable="false"
-        android:order="-999" />
-
+    android:title="@string/privacy_dashboard_title">
+    
     <!-- Work Policy info -->
     <Preference
         android:key="work_policy_info"

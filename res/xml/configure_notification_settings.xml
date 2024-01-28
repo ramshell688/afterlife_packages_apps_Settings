@@ -17,14 +17,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title=" ">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_notification_header"
-        android:clickable="false"
-        android:order="-999" />
+    android:title="@string/configure_notification_settings">
 
     <PreferenceCategory
         android:key="general_notifications_category"

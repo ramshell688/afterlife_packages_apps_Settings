@@ -19,14 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="network_and_internet_screen"
-    android:title=" ">
-
-    <!-- Switch Fragment Title To Banner View -->
-
-    <Preference
-        settings:layout="@layout/afterlife_network_header"
-        android:clickable="false"
-        android:order="-999" />
+    android:title="@string/network_dashboard_title">
 
     <PreferenceCategory
         android:key="multi_network_header"
