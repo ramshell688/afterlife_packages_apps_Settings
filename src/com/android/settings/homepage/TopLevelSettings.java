@@ -270,7 +270,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.afterlab_cardview_middle);
             }
             if (key.equals("top_level_display")){
-                preference.setLayoutResource(R.layout.afterlab_cardview_middle);
+                preference.setLayoutResource(R.layout.afterlab_cardview_bottom);
             }
             if (key.equals("top_level_wallpaper")){
                 preference.setLayoutResource(R.layout.afterlab_cardview_bottom);
